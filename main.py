@@ -12,8 +12,9 @@ app.include_router(todos.router)
 app.include_router(admin.router)
 app.include_router(users.router)
 
-# make venv -> python -m venv venv
-# activate -> source venv/Scripts/activate
+# make venv -> python -m venv todoenv
+# activate bash -> source todoenv/Scripts/activate
+# activate cmd -> todoenv/Scripts/activate
 # make txt file -> pip freeze > requirements.txt
 # pip install -r requirements.txt
 # uvicorn main:app --reload

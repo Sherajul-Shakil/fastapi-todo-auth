@@ -803,7 +803,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\napp.include_router(auth.router)\napp.include_router(todos.router)\napp.include_router(admin.router)\napp.include_router(users.router)\n# make venv -> python -m venv venv\n# activate -> source venv/Scripts/activate\n# make txt file -> pip freeze > requirements.txt\n# pip install -r requirements.txt",
+        "peekOfCode": "app = FastAPI()\nmodels.Base.metadata.create_all(bind=engine)\napp.include_router(auth.router)\napp.include_router(todos.router)\napp.include_router(admin.router)\napp.include_router(users.router)\n# make venv -> python -m venv todoenv\n# activate bash -> source todoenv/Scripts/activate\n# activate cmd -> todoenv/Scripts/activate\n# make txt file -> pip freeze > requirements.txt",
         "detail": "main",
         "documentation": {}
     },
